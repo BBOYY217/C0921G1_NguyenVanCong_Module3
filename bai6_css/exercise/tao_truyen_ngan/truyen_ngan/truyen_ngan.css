@@ -1,0 +1,55 @@
+#piltover{
+    text-align: center;
+    color: goldenrod;
+}
+
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#story{
+    vertical-align: middle;
+    color: goldenrod;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.th{
+    width: 1000px;
+}
+
+.a{
+    color: darkgoldenrod;
+}
+
+.img_character{
+    height: 30%;
+    width: 30%;
+}
+
+#menu{
+    width: 100%;
+    border: 1px solid #000;
+    height: 100px;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#menu ul
+{
+    margin-top:  42px;
+}
+#menu ul li
+{
+    list-style-type: none;
+    display: inline;
+    margin-left: 250px;
+}
