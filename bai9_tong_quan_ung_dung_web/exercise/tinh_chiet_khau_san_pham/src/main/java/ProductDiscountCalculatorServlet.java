@@ -14,7 +14,7 @@ public class ProductDiscountCalculatorServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int discount_amount = Integer.parseInt(request.getParameter("product discount"));
         int discount_price = Integer.parseInt(request.getParameter("product price"));
-        int result = (int) (discount_amount*discount_price* 0.01);
+        double result = (discount_amount*discount_price* 0.01);
 
         request.setAttribute("total",result);
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("index.jsp");
